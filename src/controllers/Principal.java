@@ -164,7 +164,7 @@ public class Principal extends Stage {
 		myfrm.setController(this);
 		Scene myscene = new Scene(myfrm.load());
 		this.setScene(myscene);
-		myscene.getStylesheets().add(getClass().getResource("../styles/standard.css").toExternalForm());
+		myscene.getStylesheets().add(getClass().getResource("../resources/styles/standard.css").toExternalForm());
 		this.setTitle("Locadora");
 		this.setResizable(false);
 
